@@ -9,7 +9,7 @@ print(f"Hello {name}! ")
 print("HAPPY BRITHDAY!!")
 print(f"Your {age} year old")
 
-#Exersice Calculate Area of Rectangle.
+#Exersice 1 Calculate Area of Rectangle.
 
 length = float(input("Enter the lenght? "))
 width = float(input("Enter the width? "))
@@ -17,3 +17,13 @@ width = float(input("Enter the width? "))
 total = length * width
 
 print(f"Area of Rectangle is : {total}cm²") #To Get the sqaure sign Numlock must on and press Alt + 0178
+
+#Exersice 2 Shopping Cart PRogram
+
+item = input("What item would you like to buy?: ")
+price = float(input("What is the price?: "))
+quantity = int(input("How many would you like?:"))
+total = price * quantity 
+
+print(f"You have bought {quantity} X {item}")
+print(f"Your total is: {total}")
